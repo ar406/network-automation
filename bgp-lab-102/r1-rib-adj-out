@@ -1,0 +1,2 @@
+   ID  Network              Next Hop             AS_PATH              Attrs
+   1   192.168.0.0/27       10.2.0.2                                  [{Origin: ?} {LocalPref: 100}]

@@ -1,0 +1,5 @@
+time="2022-05-15T14:14:17Z" level=info msg="gobgpd started"
+time="2022-05-15T14:14:17Z" level=info msg="Finished reading the config file" Topic=Config
+time="2022-05-15T14:14:17Z" level=info msg="Peer 10.2.0.3 is added"
+time="2022-05-15T14:14:17Z" level=info msg="Add a peer configuration for:10.2.0.3" Topic=Peer
+time="2022-05-15T14:14:28Z" level=info msg="Peer Up" Key=10.2.0.3 State=BGP_FSM_OPENCONFIRM Topic=Peer

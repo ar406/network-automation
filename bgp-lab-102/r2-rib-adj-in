@@ -1,0 +1,2 @@
+   ID  Network              Next Hop             AS_PATH              Age        Attrs
+   0   192.168.0.0/27       10.2.0.2                                  00:03:57   [{Origin: ?} {LocalPref: 100}]

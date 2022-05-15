@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+    r1:
+        image: pierky/gobgp
+        volumes:
+            - ./r1:/etc/gobgp
+        networks:
+            bgp-lab:
+                ipv4_address: 10.2.0.2
+    r2:
+        image: pierky/gobgp
+        volumes:
+            - ./r2:/etc/gobgp
+        networks:
+            bgp-lab:
+                ipv4_address: 10.2.0.3
+
+networks:
+    bgp-lab:
+        driver: bridge
+        ipam:
+            config:
+                - subnet: 10.2.0.0/24
